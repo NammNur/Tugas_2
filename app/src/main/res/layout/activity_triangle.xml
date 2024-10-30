@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator Segitiga"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <EditText
+        android:id="@+id/et_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan alas"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan tinggi"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/et_side_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan sisi a"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/et_side_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan sisi b"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/et_side_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan sisi c"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_calculate_area_triangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas" />
+
+    <Button
+        android:id="@+id/btn_calculate_perimeter_triangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Keliling" />
+
+    <TextView
+        android:id="@+id/tv_result_triangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Hasil"
+        android:textSize="18sp" />
+
+    <!-- Button Keluar -->
+    <Button
+        android:id="@+id/btn_exit_triangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:layout_marginTop="24dp" />
+</LinearLayout>

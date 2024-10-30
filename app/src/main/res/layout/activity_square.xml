@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator Persegi"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <EditText
+        android:id="@+id/et_side"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan panjang sisi"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_calculate_area_square"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas" />
+
+    <Button
+        android:id="@+id/btn_calculate_perimeter_square"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Keliling" />
+
+    <TextView
+        android:id="@+id/tv_result_square"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Hasil"
+        android:textSize="18sp" />
+
+    <!-- Tambahan Button Keluar -->
+    <Button
+        android:id="@+id/btn_exit_square"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
