@@ -45,13 +45,22 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:text="PERSEGI PANJANG" />
-
         <Button
             android:id="@+id/btn_segitiga"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:text="SEGITIGA" />
+        <Button
+            android:id="@+id/btn_lingkaran"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="LINGKARAN" />
+
+
+
+
 
     </GridLayout>
 </LinearLayout>
