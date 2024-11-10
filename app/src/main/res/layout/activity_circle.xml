@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator Lingkaran"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <EditText
+        android:id="@+id/et_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan jari-jari"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_calculate_area_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas" />
+
+    <Button
+        android:id="@+id/btn_calculate_perimeter_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Keliling" />
+
+    <TextView
+        android:id="@+id/tv_result_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Hasil"
+        android:textSize="18sp" />
+
+    <!-- Tombol Keluar -->
+    <Button
+        android:id="@+id/btn_exit_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:layout_marginTop="24dp" />
+</LinearLayout>

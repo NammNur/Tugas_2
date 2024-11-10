@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnSquare, btnRectangle, btnTriangle;
+    private Button btnSquare, btnRectangle, btnTriangle, btnCircle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         btnSquare = findViewById(R.id.btn_persegi);
         btnRectangle = findViewById(R.id.btn_persegi_panjang);
         btnTriangle = findViewById(R.id.btn_segitiga);
+        btnCircle = findViewbyId(R.id.btn_lingkaran)
 
         btnSquare.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,6 +43,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Navigasi ke TriangleActivity
+                Intent intent = new Intent(MainActivity.this, TriangleActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnCircle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigasi ke CircleActivity
                 Intent intent = new Intent(MainActivity.this, TriangleActivity.class);
                 startActivity(intent);
             }
